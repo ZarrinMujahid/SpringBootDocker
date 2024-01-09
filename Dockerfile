@@ -1,6 +1,6 @@
 FROM openjdk
 
-COPY ./target/demo-docker*.jar /usr/app/dockerDemo.jar
+COPY ./target/demo-docker*.jar 
 
 WORKDIR /usr/app
 
